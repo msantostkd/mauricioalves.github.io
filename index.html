@@ -27,17 +27,15 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"
   ></script>
+  <script
+    src="https://kit.fontawesome.com/e1ef3b4fea.js"
+    crossorigin="anonymous"
+  ></script>
   <body>
     <!-- Inicio Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-      <img
-        src="/src/img/logo_rafa.png"
-        width="30"
-        height="30"
-        class="d-inline-block align-top"
-        alt=""
-      />
-      <a class="navbar-brand" href="#">Rafael Megda</a>
+    <nav class=" navbar fixed-top navbar-expand-lg navbar-dark bg-black">
+      <i class=" icone fas fa-code"></i>
+      <a class="navbar-brand" href="#"></a>
 
       <button
         class="navbar-toggler"
@@ -76,31 +74,69 @@
       </div>
     </nav>
     <!-- ---------------------------Fim Navbar------------------------------- -->
+    <!-- ---------------------------Inicio Banner------------------------------- -->
+    <section class="jumbotron text-center corFundo">
+      <div class="container" id="banner">
+        <img
+          class="foto-perfil"
+          src="src/img/foto-perfil.jpg"
+          alt="foto-perfil"
+        />
+        <h1 class="titulos jumbotron-heading">Rafael Megda</h1>
+        <p class="lead-muted">Desenvolver WEB</p>
+        <a href="https://www.linkedin.com/in/rafaelmegdaisidoro/"
+          ><i class="icone fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/rafaelmegda"
+          ><i class="icone fab fa-github"></i
+        ></a>
+        <a href="http://instagram.com/rafael_megda"
+          ><i class="icone fab fa-instagram"></i
+        ></a>
+      </div>
+    </section>
+    <!-- ---------------------------Fim Banner------------------------------- -->
+    <!-- ---------------------------inicio Sobre------------------------------- -->
     <section class="jumbotron text-center">
-      <div class="container">
-        <h1>Página em Construção</h1>
+      <div class="container" id="sobre">
+        <h2 class="jumbotron-heading">Sobre mim</h2>
         <p class="lead">
-          Em breve
-        </p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">Acessar GITHUB</a>
+          Descrição
         </p>
       </div>
     </section>
+    <!-- ---------------------------fim Sobre------------------------------- -->
   </body>
   <style>
-    .jumbotron {
-      display: flex;
-      background-color: rgb(255, 99, 71);
-      color: white;
+    .foto-perfil {
+      height: 30%;
+      width: 30%;
+      border-radius: 50%;
     }
 
-    .lead {
-      color: white;
+    .corFundo {
+      background-color: black;
     }
 
-    .navbar {
-      display: flex;
+    .corSecundaria {
+    }
+
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
+    }
+    .icone {
+      padding-left: 12px;
+      color: white;
+      margin: 0;
+    }
+
+    .titulos {
+      text-underline-position: bellow;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-weight: 700;
+      color: white;
     }
   </style>
 </html>
