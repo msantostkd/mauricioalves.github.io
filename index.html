@@ -33,9 +33,13 @@
   ></script>
   <body>
     <!-- Inicio Navbar -->
-    <nav class=" navbar fixed-top navbar-expand-lg navbar-dark bg-black">
-      <i class=" icone fas fa-code"></i>
-      <a class="navbar-brand" href="#"></a>
+    <nav
+      class="navbar navbar-expand-md fixed-top navbar-dark"
+      style="background-color: black;"
+    >
+      <a class="navbar-brand" href="#banner">
+        <i class=" icone fas fa-code"></i
+      ></a>
 
       <button
         class="navbar-toggler"
@@ -57,16 +61,19 @@
           </li>
           <li class="nav-item"></li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Serviços</a>
+            <a class="nav-link" href="#sobre-mim">Sobre Mim</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfólio</a>
+            <a class="nav-link" href="#habilidades">Habilidades Técnicas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#portfolio">Portfólio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="#realizacoes">Realizações</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
           </li>
         </ul>
       </div>
@@ -95,14 +102,10 @@
     </section>
     <!-- ---------------------------Fim Banner------------------------------- -->
     <!-- ---------------------------inicio Sobre------------------------------- -->
-    <section class="corSecundaria jumbotron text-center">
+    <section class="corFundoSecundaria jumbotron text-center">
       <div class="container" id="sobre-mim">
+        <i class="icone-bookmark fas fa-bookmark fa-3x"></i>
         <h2 class="titulos jumbotron-heading">Sobre mim</h2>
-        <!-- <img
-          class="foto-sobre-mim"
-          src="src/img/foto-perfil.jpg"
-          alt="foto-perfil"
-        /> -->
         <p class="lead">
           Graduado em Análise e Desenvolvimento de Sistemas pelo Instituto
           Federal de São Paulo (IFSP) - Campus Barretos, atua como programador
@@ -141,14 +144,82 @@
       </div>
     </section>
     <!-- ---------------------------fim Sobre------------------------------- -->
+    <!-- ---------------------------inicio habilidades------------------------------- -->
+    <section class="corFundo jumbotron text-center">
+      <div class="container" id="habilidades">
+        <i class="icone-bookmark fas fa-bookmark fa-3x"></i>
+        <h2 class="titulos jumbotron-heading">Habilidades Técnicas</h2>
+        <div class="row row-cols-2 textoGrid">
+          <div class="col">
+            <h4>Back End</h4>
+            <p>PHP</p>
+            <p>C# - Desktop</p>
+            <p>Node.JS</p>
+            <p>WordPress</p>
+          </div>
+          <div class="col">
+            <h4>Front End</h4>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>VUE.JS</p>
+          </div>
+          <div class="col">
+            <h4>Banco de Dados</h4>
+            <p>MySQL</p>
+            <p>SQL Server</p>
+            <p>Mongo-DB</p>
+          </div>
+          <div class="col">
+            <h4>Versionamento</h4>
+            <p>Git</p>
+            <p>Scrum</p>
+            <p>Metodologia Ágil</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------fim habilidades------------------------------- -->
+    <!-- ---------------------------inicio Portfólio------------------------------- -->
+    <section class="corFundoSecundaria jumbotron text-center">
+      <div class="container" id="portfolio">
+        <i class="icone-bookmark fas fa-bookmark fa-3x"></i>
+        <h2 class="titulos jumbotron-heading">Portfólio</h2>
+        <p class="lead"></p>
+      </div>
+    </section>
+    <!-- ---------------------------fim Portfólio------------------------------- -->
+    <!-- ---------------------------inicio realizacoes------------------------------- -->
+    <section class="corFundo jumbotron text-center">
+      <div class="container" id="realizacoes">
+        <i class="icone-bookmark fas fa-bookmark fa-3x"></i>
+        <h2 class="titulos jumbotron-heading">Realizações</h2>
+        <p class="lead"></p>
+      </div>
+    </section>
+    <!-- ---------------------------fim realizacoes------------------------------- -->
+    <!-- ---------------------------inicio Contato------------------------------- -->
+    <section class="corFundoSecundaria jumbotron text-center">
+      <div class="container" id="contato">
+        <i class="icone-bookmark fas fa-bookmark fa-3x"></i>
+        <h2 class="titulos jumbotron-heading">Contato</h2>
+        <p class="lead"></p>
+      </div>
+    </section>
+    <!-- ---------------------------fim contato------------------------------- -->
   </body>
   <style>
+    #banner {
+      padding-top: 60px;
+    }
+
     .foto-sobre-mim {
       height: 30%;
       width: 30%;
       float: left;
       padding: 10px;
     }
+
     .foto-perfil {
       height: 30%;
       width: 30%;
@@ -159,8 +230,43 @@
       background-color: black;
     }
 
-    .corSecundaria {
+    .corFundoSecundaria {
       background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .icone {
+      padding-left: 12px;
+      color: white;
+      margin: 0;
+    }
+
+    .icone-bookmark {
+      color: rgba(0, 0, 255, 0.6);
+      padding-bottom: 10px;
+    }
+
+    .titulos {
+      text-underline-position: bellow;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-weight: 700;
+      color: white;
+    }
+
+    .textoGrid {
+      color: white;
+    }
+
+    .col {
+      padding: 10px;
+    }
+
+    .jumbotron {
+      padding-top: 0px;
+      padding-bottom: 15px;
+      margin-bottom: 0px;
+      border-radius: 0px;
+      align-items: center;
     }
 
     .lead-muted {
@@ -171,25 +277,6 @@
       color: white;
       font-size: 15px;
       text-align: justify;
-    }
-
-    .icone {
-      padding-left: 12px;
-      color: white;
-      margin: 0;
-    }
-
-    .titulos {
-      text-underline-position: bellow;
-      padding-bottom: 10px;
-      padding-top: 10px;
-      font-weight: 700;
-      color: white;
-    }
-    .jumbotron {
-      padding-top: 15px;
-      margin-bottom: 0px;
-      border-radius: 0px;
     }
   </style>
 </html>
