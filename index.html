@@ -55,9 +55,7 @@
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sobre</a>
-          </li>
+          <li class="nav-item"></li>
           <li class="nav-item">
             <a class="nav-link" href="#">Serviços</a>
           </li>
@@ -97,17 +95,60 @@
     </section>
     <!-- ---------------------------Fim Banner------------------------------- -->
     <!-- ---------------------------inicio Sobre------------------------------- -->
-    <section class="jumbotron text-center">
-      <div class="container" id="sobre">
-        <h2 class="jumbotron-heading">Sobre mim</h2>
+    <section class="corSecundaria jumbotron text-center">
+      <div class="container" id="sobre-mim">
+        <h2 class="titulos jumbotron-heading">Sobre mim</h2>
+        <!-- <img
+          class="foto-sobre-mim"
+          src="src/img/foto-perfil.jpg"
+          alt="foto-perfil"
+        /> -->
         <p class="lead">
-          Descrição
+          Graduado em Análise e Desenvolvimento de Sistemas pelo Instituto
+          Federal de São Paulo (IFSP) - Campus Barretos, atua como programador
+          Back-End WEB em PHP e também no Front-End. Hoje busca se aperfeiçoar
+          no PHP e Lavaravel e também com Frameworks para Front-end como o
+          VUE.jS e reativos. <br /><br />
+          No primeiro emprego encontrou alguns desafios nos processos gerenciais
+          da empresa, foi então que descobriu sua paixão por automizar e criar
+          um sistema para tudo que fosse manual. A partiu deste momento começou
+          a desenvolver trabalhos internos e também a sites web com WordPress, e
+          de marketing digital e consultorias de TI.<br /><br />
+          Participou da fundação e estruturação do ecossistema de inovação Bruto
+          Valley Bruto Valley, que é a comunidade de tecnologia, inovação e
+          startup de Barretos e região. Desenvolve-se startups e projetos
+          inovadores em diferentes estágios de maturidade em programas e
+          projetos dos principais atores da região de Barretos. E também fundou
+          a comunidade de Desenvolvedores locais, realizando meetups, promovendo
+          conhecimento e conectando Devs com startups e empresas.<br /><br />
+          Diante deste contexto, fundou em 2019 a Startup LOGHub Express, onde
+          participou ativamente desde o processo de ideação, até a etapa de
+          acesso ao mercado. Esta etapa foi extremamente importante para inserir
+          no contexto do empreendedorismo, onde teve contato com clientes,
+          coodenação de time, reuniões, mentorias e muito trabalho para concluir
+          esta etapa. Uma das funções era desenvolver a plataforma WEB, desde o
+          processo do protótipo, requisitos e desenvolvimento da plataforma.<br /><br />
+          Curioso e dedicado, segue sempre buscando aprender novas stacks com o
+          objetivo de solucionar problemas através da programação e
+          desenvolvimento WEB, permitindo uma experiência cada vez mais
+          eficiente e inovadora aos usuários. Apaixonado pela tecnologia, nos
+          tempos livres sempre se dedico a aprender o que há de mais recente na
+          programação, novas técnicas, novas linguagens, frameworks, sempre me
+          mantendo atualizado e preparado tecnicamente. <br /><br />Obs:
+          Apaixonado por Pesquisa Cientifica, linguagens de programação e
+          compartilhar conhecimento.
         </p>
       </div>
     </section>
     <!-- ---------------------------fim Sobre------------------------------- -->
   </body>
   <style>
+    .foto-sobre-mim {
+      height: 30%;
+      width: 30%;
+      float: left;
+      padding: 10px;
+    }
     .foto-perfil {
       height: 30%;
       width: 30%;
@@ -119,12 +160,19 @@
     }
 
     .corSecundaria {
+      background-color: rgba(0, 0, 0, 0.9);
     }
 
-    p {
-      font-family: Arial, Helvetica, sans-serif;
-      color: black;
+    .lead-muted {
+      color: white;
     }
+
+    .lead {
+      color: white;
+      font-size: 15px;
+      text-align: justify;
+    }
+
     .icone {
       padding-left: 12px;
       color: white;
@@ -137,6 +185,11 @@
       padding-top: 10px;
       font-weight: 700;
       color: white;
+    }
+    .jumbotron {
+      padding-top: 15px;
+      margin-bottom: 0px;
+      border-radius: 0px;
     }
   </style>
 </html>
