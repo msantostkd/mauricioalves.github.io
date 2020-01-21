@@ -472,12 +472,9 @@
         </div>
       </footer>
       <!-- ---------------------------fim footer------------------------------- -->
-      <div id="widget-whatsapp" class="widget-whatsapp">
-        
-      </div>
 
-
-      <div id="whatswidget-pre-wrapper" class="">
+      <!-- ----------------------------------------------------WhatsAPP Mensenger----------------------------------------------- -->
+        <div id="whatswidget-pre-wrapper" class="">
         <div id="whatswidget-widget-wrapper" class="whatswidget-widget-wrapper" style="all:revert;">
           <div id="whatswidget-conversation" class="whatswidget-conversation" style="display: none; opacity: 0;">
             <div class="whatswidget-conversation-header" style="all:revert;">
@@ -503,7 +500,17 @@
             </div>
           </div>
           <script id="whatswidget-script"
-            type="text/javascript">document.getElementById("whatswidget-conversation").style.display = "none"; document.getElementById("whatswidget-conversation").style.opacity = "0"; var button = document.getElementById("whatswidget-button"); button.addEventListener("click", openChat); var conversationMessageOuter = document.getElementById("whatswidget-conversation-message-outer"); conversationMessageOuter.addEventListener("click", openChat); var chatOpen = !1; function openChat() { 0 == chatOpen ? (document.getElementById("whatswidget-conversation").style.display = "block", document.getElementById("whatswidget-conversation").style.opacity = 100, chatOpen = !0, document.getElementById("whatswidget-conversation-message-outer").style.display = "none") : (document.getElementById("whatswidget-conversation").style.opacity = 0, document.getElementById("whatswidget-conversation").style.display = "none", chatOpen = !1) }</script>
+            type="text/javascript">document.getElementById("whatswidget-conversation").style.display = "none"; 
+            document.getElementById("whatswidget-conversation").style.opacity = "0"; var button = document.getElementById("whatswidget-button"); 
+            button.addEventListener("click", openChat); var conversationMessageOuter = document.getElementById("whatswidget-conversation-message-outer"); 
+            conversationMessageOuter.addEventListener("click", openChat); var chatOpen = !1; 
+            function openChat() 
+            { 
+              0 == chatOpen ? (document.getElementById("whatswidget-conversation").style.display = "block", document.getElementById("whatswidget-conversation").style.opacity = 100, 
+              chatOpen = !0, document.getElementById("whatswidget-conversation-message-outer").style.display = "none") : (document.getElementById("whatswidget-conversation").style.opacity = 0, 
+              document.getElementById("whatswidget-conversation").style.display = "none", chatOpen = !1) 
+              }
+              </script>
         </div>
         <style id="whatswidget-style">
           .whatswidget-widget-wrapper {
@@ -673,6 +680,7 @@
           }
         </style>
       </div>
+      <!-- ----------------------------------------------------WhatsAPP Mensenger----------------------------------------------- -->
   </body>
   <style>
     * {
