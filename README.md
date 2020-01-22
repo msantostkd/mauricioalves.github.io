@@ -2,6 +2,8 @@
 
 Página construida com HTML5, CSS3, Bootstrap e JavaScript para oferecer ao mercado mais informações sobre meu curriculo.
 
+Para acessar: www.rafaelmegda.github.io
+
 # Sugestões
 
 Penso em montar uma vídeo aula e disponibilizar o conteúdo para que o pessoal que esta buscando aprender um pouco sobre front-end possa
