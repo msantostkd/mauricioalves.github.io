@@ -64,13 +64,16 @@
             <a class="nav-link" href="#sobre-mim">Sobre Mim</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#servicos">Serviços</a>
+            <a class="nav-link" href="#servicos">Habilidades</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">Portfólio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#realizacoes">Realizações</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rafaelmegdablog.blogspot.com/">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contato">Contato</a>
@@ -88,14 +91,15 @@
           alt="foto-perfil"
         />
         <h1 class="titulos jumbotron-heading">Rafael Megda</h1>
-        <p class="lead-muted">Desenvolver WEB</p>
+        <p class="lead-muted">Desenvolvedor WEB</p>
         <a href="https://www.linkedin.com/in/rafaelmegdaisidoro/"
           ><i class="icone fab fa-linkedin fa-2x"></i
         ></a>
         <a href="https://github.com/rafaelmegda"
           ><i class="icone fab fa-github fa-2x"></i
-        ></a><br>
-        <a href="src/Curriculo Rafael Megda Isidoro.pdf"> <button type="button" class="btn btn-primary">Download Curriculo</button></a>
+        ></a>
+        <!-- <br>
+        <a href="src/Curriculo Rafael Megda Isidoro.pdf"> <button type="button" class="btn btn-primary">Download Curriculo</button></a> -->
       </div>
     </section>
     <!-- ---------------------------Fim Banner------------------------------- -->
@@ -110,15 +114,15 @@
           Back-End WEB em PHP e também no Front-End com HTML, CSS, JavaScript e 
           Bootstrap. Hoje busca se aperfeiçoar no PHP e Lavaravel e também 
           com Frameworks para Front-end como o VUE.jS e reativos. <br /><br />
-          No primeiro emprego encontrou alguns desafios nos processos gerenciais
-          da empresa, foi então que descobriu sua paixão por automatizar processos manuais, 
-          começando a desenvolver trabalhos internos e também sites web com WordPress, 
-          marketing digital e consultorias de TI.<br /><br />
+          Sempre inquieto, nas empresas que já trabalhou encontrou alguns desafios nos processos 
+          gerenciais, foi então que descobriu sua paixão por automatizar processos manuais, e
+          começou a desenvolver trabalhos (programas) internos com planilhas, Acess, sites web 
+          com WordPress e marketing digital.<br /><br />
           Participou da fundação e estruturação do ecossistema de inovação Bruto
           Valley, que é a comunidade de tecnologia, inovação e
-          startup de Barretos e região, desenvolvendo startups e projetos
+          startup de Barretos, desenvolvendo startups e projetos
           inovadores em diferentes estágios de maturidade em programas e
-          projetos dos principais atores da região de Barretos. E também fundou
+          projetos dos principais atores da região de Barretos. Fundou
           a comunidade de Desenvolvedores locais, realizando meetups, promovendo
           conhecimento e conectando Devs com startups e empresas.<br /><br />
           Diante deste contexto, fundou em 2019 a Startup LOGHub Express, onde
@@ -145,7 +149,7 @@
     <section class="corFundo jumbotron text-center">
       <div class="container" id="servicos">
         <i class="icone-bookmark fas fa-bookmark fa-3x"></i>
-        <h2 class="titulos jumbotron-heading">Serviços</h2>
+        <h2 class="titulos jumbotron-heading">Habilidades</h2>
         <div class="row row-cols-2">
           <div class="col-lg-4 col-md-6">
             <div class="box-servicos">
@@ -239,7 +243,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="box-servicos">
               <i class="icone fas fa-hands-helping fa-3x"></i>
-              <h4>Consultorias de TI</h4>
+              <h4>Consultor de TI</h4>
               <p>
                 Com uma visão desde a parte técnica até ao produto final e
                 relacionamento com o cliente, ofereço consultorias para criação
@@ -260,6 +264,10 @@
           <li class="nav-item">
             <a class="nav-link active" id="web-tab" data-toggle="tab" href="#web" role="tab" aria-controls="web"
               aria-selected="true">Desenvolvimento WEB</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="front-tab" data-toggle="tab" href="#front" role="tab" aria-controls="front"
+              aria-selected="false">Front-End</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="desktop-tab" data-toggle="tab" href="#desktop" role="tab" aria-controls="desktop"
@@ -315,7 +323,22 @@
                 </div>
               <!-- fim card -->              
             </div>
-            </div>
+          </div>
+            <!-- ----------------------------------------------Front-End--------------------------------------------------->
+            <div class="tab-pane fade" id="front" role="tabpanel" aria-labelledby="front-tab">
+              <div class="row row-cols-2">
+                <!-- card -->            
+                <div class="card" style="width: 18rem;">
+                  <img src="src/img/front-end.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h6>Este portfólio (inicio ao fim)</h6>
+                    <a href="https://github.com/rafaelmegda/rafaelmegda.github.io"><button
+                        class="btn btn-light">Acessar</button></a>
+                  </div>
+                </div>
+                <!-- fim card -->
+              </div>
+            </div>                          
             <!-- ----------------------------------------------DESKTOP-------------------------------------------------- -->
           <div class="tab-pane fade" id="desktop" role="tabpanel" aria-labelledby="desktop-tab">
             <div class="row row-cols-2">
@@ -481,7 +504,7 @@
               <div id="whatswidget-conversation-title" class="whatswidget-conversation-title" style="all:revert;">Rafael Megda
               </div>
             </div>
-            <div id="whatswidget-conversation-message" class="whatswidget-conversation-message " style="all:revert;">Clique em enviar mensagem!</div>
+            <div id="whatswidget-conversation-message" class="whatswidget-conversation-message " style="all:revert;">Olá, como posso ajudar?</div>
             <div class="whatswidget-conversation-cta" style="all:revert;"> 
               <a style="all:revert;" id="whatswidget-phone-desktop" target="_blank" href="https://web.whatsapp.com/send?phone=5517988217169"
                 class="whatswidget-cta whatswidget-cta-desktop">Enviar Mensagem</a> 
@@ -683,6 +706,7 @@
       <!-- ----------------------------------------------------WhatsAPP Mensenger----------------------------------------------- -->
   </body>
   <style>
+    /* cores para usar no futuro: verde florescente #00eb87 */
     * {
       color: white;
     }
