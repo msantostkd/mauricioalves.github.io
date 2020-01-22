@@ -2,7 +2,7 @@
 
 Página construida com HTML5, CSS3, Bootstrap e JavaScript para oferecer ao mercado mais informações sobre meu curriculo.
 
-Para acessar: www.rafaelmegda.github.io
+Para acessar: https://rafaelmegda.github.io/
 
 # Sugestões
 
