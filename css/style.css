@@ -1,6 +1,6 @@
 /* cores para usar no futuro: verde florescente #00eb87 */
 * {
-  color: white;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 #banner {
@@ -9,15 +9,17 @@
 
 div.box-servicos {
   padding: 20px;
-  background-color: rgba(19, 18, 18, 0.9);
+  background-color: rgba(19, 18, 18, 0.2);
   text-align: center;
   margin-bottom: 30px;
 }
 
 .foto-perfil {
-  height: 30%;
-  width: 30%;
+  height: 20%;
+  width: 20%;
   border-radius: 50%;
+  padding: 5px;
+  float: left;
 }
 
 .corFundo {
@@ -26,24 +28,24 @@ div.box-servicos {
 
 .icone {
   padding: 12px;
-  color: white;
+  color:rgba(0, 0, 0, 0.9);;
   margin: 0;
 }
 
-.container {
-  padding-bottom: 50px;
-}
+.container-fluid {
+  height: auto;
+} 
 
 .titulos {
   text-underline-position: bellow;
   padding-bottom: 10px;
   padding-top: 10px;
   font-weight: 700;
-  color: #63dc3e;
+  color:rgba(0, 0, 0, 0.9);
 }
 
 .card-body {
-  background-color: rgba(19, 18, 18, 0.9);
+  background-color: rgba(19, 18, 18, 0.2);
 }
 
 .col {
@@ -51,7 +53,7 @@ div.box-servicos {
 }
 
 .texto {
-  color: #63dc3e;
+  color:rgba(0, 0, 0, 0.9);;
   font-size: 20px;
   text-align: justify;
 }
@@ -60,4 +62,16 @@ div.box-servicos {
   background-color: rgba(19, 18, 18, 0.9);
   padding: 15px;
   padding-bottom: 0px;
+}
+
+.jumbotron {
+  color:rgba(19, 18, 18, 0.9);
+  background-color:transparent !important;
+  }
+
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  color:rgba(19, 18, 18, 0.9);
+  background-color: transparent !important;
 }
