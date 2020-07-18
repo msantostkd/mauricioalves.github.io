@@ -46,9 +46,8 @@ div.box-servicos {
 }
 
 .footer {
-  background-color: rgba(19, 18, 18, 0.9);
   padding: 15px;
-  padding-bottom: 0px;
+  margin: 20px;
 }
 
 .jumbotron {
