@@ -1,7 +1,7 @@
 /* cores para usar no futuro: verde florescente #00eb87 */
 * {
   color: rgba(0, 0, 0, 0.9);
-  font-family:'Poppins', sans-serif
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 div.box-servicos {
@@ -12,8 +12,8 @@ div.box-servicos {
 }
 
 .foto-perfil {
-  height: 30%;
-  width: 30%;
+  height: 15%;
+  width: 15%;
   border-radius: 50%;
   padding: 5px;
   float: left;
@@ -39,6 +39,7 @@ div.box-servicos {
   padding-top: 10px;
   font-weight: 700;
   color:rgba(0, 0, 0, 0.9);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .card-body {
@@ -55,9 +56,12 @@ div.box-servicos {
 }
 
 .jumbotron {
-  color:rgba(19, 18, 18, 0.9);
+  color: rgba(19, 18, 18, 0.9);
   background-color: transparent !important;
-  }
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
 .jumbotron-fluid {
   color:rgba(19, 18, 18, 0.9);
@@ -73,4 +77,25 @@ text-align: left;
 margin: 30px;
 }
 
- 
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Estilo para a seção de botões */
+.buttons-section {
+  margin-top: 20px;
+}
+
+/* Estilo personalizado para os botões */
+.custom-btn {
+  border-radius: 25px; /* Borda arredondada */
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 20px solid black; /* Borda preta fixa */
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, border 0.3s;
+}
+
