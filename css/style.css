@@ -6,11 +6,10 @@
 
 
 .foto-perfil {
-  height: 15%;
-  width: 15%;
+  width: 20%;
   border-radius: 50%;
-  padding: 5px;
-  float: left;
+  padding: 15px;
+  margin: 20px;
 }
 
 
@@ -21,14 +20,6 @@
 }
 
 
-.titulos {
-  text-underline-position: bellow;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  font-weight: 700;
-  color:rgba(0, 0, 0, 0.9);
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 
 .card-title {
   text-align: left;
@@ -50,6 +41,16 @@
   border-bottom: 2px solid black; /* Linha de borda inferior preta */
   text-decoration: none; /* Remover sublinhado dos links */
   color: inherit; /* Herdar cor do texto */
+  text-align: left;
+}
+
+card-body {
+  padding: 20px;
+  text-align: left;
+  display: flex;
+}
+
+.custom-btn {
   text-align: left;
 }
 
