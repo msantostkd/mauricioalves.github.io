@@ -1,0 +1,27 @@
+name: Auto Pull Request from Develop to Master
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        base: master
+        head: develop
+        title: "Merge Develop into Master"
+        body: |
+          This is an automatic pull request from `develop` to `master`.
+          Please review the changes and merge if appropriate.
+        draft: false
+        delete-branch: false
