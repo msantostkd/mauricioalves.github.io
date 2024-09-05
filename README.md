@@ -1,4 +1,4 @@
-# Rafael Megda Portfolio Website
+# Crie seu Portfolio hospedado no Github Pages
 
 Este repositório contém o código-fonte da página de portfólio pessoal de Rafael Megda. Ele foi desenvolvido utilizando HTML e CSS e está hospedado diretamente no GitHub Pages.
 
@@ -39,10 +39,12 @@ Agora, edite o código HTML e CSS para personalizar o conteúdo para suas própr
 
 Seções principais do arquivo index.html:
 
-- **Sobre:** Adicione uma breve descrição sobre você.
-- **Projetos:** Liste seus principais projetos, incluindo links para repositórios GitHub ou demonstrações.
-- **Habilidades:** Destaque suas principais habilidades.
-- **Contato:** Adicione suas informações de contato, como e-mail e links para redes sociais.
+- **Projetos:** Busque colocar seus prinicipais projetos que acha interessante hospedados no github por exemplo.
+- **Linkedin:** Vale a pena para que possa analisar seu perfil profissional
+- **Redes Sociais**: Se você tem um perfil de criação de conteúdo ou que acha interessante estar presente no seu portifólio, coloque também
+- **YouTube**: Se tiver canal no YouTube, compartilhe seus vídeos.
+
+Pense em uma página simples que passe a mensagem para o público que deseja alcançar. Se for recrutadores, mostre seus trabalhos, coloque os links diretos.
 
 ### 3. Como hospedar sua página no GitHub Pages
 O GitHub oferece uma maneira fácil de hospedar sites estáticos diretamente de um repositório.
@@ -70,9 +72,9 @@ git push origin main
 Sempre que quiser atualizar o conteúdo ou o design do seu portfólio, basta fazer as alterações nos arquivos, fazer o commit, e empurrar para o GitHub. O site será atualizado automaticamente.
 
 ## Estrutura do Repositório
-- index.html: Página principal do portfólio.
-- styles.css: Arquivo de estilo que controla a aparência da página.
-- images/: Pasta onde você pode adicionar suas imagens, como fotos de perfil ou screenshots de projetos.
+- **index.html:** Página principal do portfólio.
+- **styles.css:** Arquivo de estilo que controla a aparência da página.
+- **images/:** Pasta onde você pode adicionar suas imagens, como fotos de perfil ou screenshots de projetos.
 
 ## Dicas
 - Mantenha seu portfólio atualizado com novos projetos e habilidades à medida que você evolui como desenvolvedor.
