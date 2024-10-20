@@ -1,0 +1,11 @@
+{
+  "name": "msantostkd.github.io",
+  "version": "1.0.0",
+  "description": "Meu portfólio pessoal",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080"
+  },
+  "author": "Mauricio Santos",
+  "license": "MIT"
+}
